@@ -10,16 +10,6 @@ const routes: Routes = [
     { path: '', component: DashboardComponent },
     { path: 'dashboard', component: DashboardComponent },
     { path: '**',   redirectTo: 'dashboard', pathMatch: 'full' },
-    // {
-    //   path: 'dashboard',
-    //   loadChildren: './dashboard/dashboard.module#DashboardModule'
-    // },
-    // { path: '', component: PageNotFoundComponent },
-    // { path: '**',   redirectTo: '/', pathMatch: 'full' },
-    {
-      path: 'builder',
-      loadChildren: './builder/builder.module#BuilderModule'
-    },
     {
       path: 'login',
       loadChildren: './login/login.module#LoginModule'

@@ -7,7 +7,6 @@ import { SnotifyModule, SnotifyService, ToastDefaults } from 'ng-snotify';
 
 
 // Import Modules
-import { BuilderModule } from './builder/builder.module' ;
 // import { DashboardModule } from './dashboard/dashboard.module' ;
 import { LoginModule } from './login/login.module' ;
 
@@ -30,7 +29,6 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     BrowserModule,
     HttpClientModule,
     SnotifyModule,
-    BuilderModule,
     // DashboardModule,
     LoginModule,
 
